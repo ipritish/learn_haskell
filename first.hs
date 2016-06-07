@@ -7,7 +7,7 @@ square :: Integer->Integer
 square n = n*n
 
 double :: Integer->Integer
-double n = n*n
+double n = n*2
 
 example :: Integer
 example = double(size - square(2+2))
